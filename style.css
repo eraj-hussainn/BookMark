@@ -266,6 +266,7 @@ left: 142px;
     position: relative;
     z-index: 2;
     right: 142px;
+    top: 0px;
 }
  .border-radius-3{
 width: 620px;
@@ -278,3 +279,14 @@ width: 620px;
  
     border-radius: 200px 0px 0px 200px;
  }
+ .page-1{
+    border:2px solid red;
+}
+
+.page-2{
+    border:2px solid green;
+}
+
+.page-3{
+    border:2px solid blue;
+}
