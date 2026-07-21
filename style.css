@@ -9,6 +9,11 @@
     clear: both;
 }
 
+.page-3{
+    height: 520px;
+    overflow: hidden;
+}
+
 .header {
     margin: 48px 113px 0px;
     padding: 16px;
@@ -165,8 +170,9 @@ transition: 0.4s;
  /* -------page-2------------  */
 
  .page-2{
-    background-color: #F7F7F7;
+  background:#f3f1f1;
     position: relative;
+    
     
  }
 
@@ -235,7 +241,7 @@ padding-top: 80px;
 
  /* -------page-3------------ */
 .page-3{
- background-color: #F7F7F7;
+ background:#f3f1f1;
     position: relative;   
 }
 
@@ -279,14 +285,395 @@ width: 620px;
  
     border-radius: 200px 0px 0px 200px;
  }
- .page-1{
-    border:2px solid red;
+
+ /* -------page-4------------ */
+
+.page-4{
+    background:#f3f1f1;
+    height:620px;
+    position:relative;
 }
 
-.page-2{
-    border:2px solid green;
+/* LEFT */
+
+.left-4{
+    float:left;
+    width:55%;
+    height:620px;
+    position:relative;
 }
 
-.page-3{
-    border:2px solid blue;
+.left-4 img{
+    width:520px;
+    position:absolute;
+    left:140px;
+    top:70px;
+    z-index:5;
+}
+
+/* Blue Shape */
+
+.border-radius-4{
+    width:560px;
+    height:320px;
+    background:#5368DF;
+
+    position:absolute;
+    left:0;
+    bottom:-20px;
+
+    border-radius:0 180px 180px 0;
+
+    z-index:1;
+}
+
+/* RIGHT */
+
+.right-4{
+    float:right;
+    width:35%;
+    margin-top:180px;
+    margin-right:100px;
+}
+
+.right-4 .p1-1{
+    font-size:34px;
+    font-weight:600;
+    padding-top:0;
+    margin-bottom:20px;
+}
+
+.right-4 .p2{
+    font-size:18px;
+    line-height:32px;
+    color:#9194A1;
+    margin-bottom:30px;
+}
+/* -------page-5------------ */
+
+.page-5{
+    position: relative;
+}
+
+/* ---------------- PAGE 5 ---------------- */
+
+.page-5{
+    width:100%;
+    padding:80px 0;
+    background:#fff;
+    text-align:center;
+}
+
+.header-page-5{
+    margin-bottom:70px;
+}
+
+.cards{
+    width:1200px;
+    margin:auto;
+}
+
+.browser-card{
+    width:280px;
+    background:#fff;
+    display:inline-block;
+    vertical-align:top;
+
+    margin:0 35px;
+
+    text-align:center;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+.browser-card img{
+    margin-top:40px;
+}
+
+.browser-card h2{
+    margin-top:25px;
+    font-size:18px;
+    color:#252B46;
+    font-weight:400;
+}
+
+.browser-card p{
+    margin-top:10px;
+    padding-bottom: 35px;
+    color:#9194A1;
+    font-size:16px;
+}
+
+.pahe-5 hr{
+      background-color: #e1e4f1;
+}
+.dots{
+    width:100%;
+    margin-top:35px;
+}
+
+.browser-card button{
+    width:230px;
+
+    margin-top:5px;
+    margin-bottom:15px;
+
+    padding:15px;
+
+    background:#5267DF;
+
+    color:#fff;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    cursor:pointer;
+}
+
+.browser-card button:hover{
+    background:#fff;
+    color:#5267DF;
+    border:2px solid #5267DF;
+    transition:.3s;
+}
+
+/* staircase effect */
+
+.card1{
+    margin-top:0;
+}
+
+.card2{
+    margin-top:45px;
+}
+
+.card3{
+    margin-top:90px;
+}
+/* -------- Page-6 -------- */
+
+.page-6{
+    width:100%;
+    padding:90px 0;
+    background:#fff;
+}
+
+.page-6-heading{
+    margin-bottom:60px;
+}
+
+.page-6-heading .p1-1{
+    padding-top:0;
+    font-size: 22px;
+}
+
+.page-6 .p2{
+    font-size: 15px;
+}
+.faq{
+    width:530px;
+    margin:auto;
+}
+
+.faq-item{
+    width:100%;
+    border-top:1px solid #E4E4E4;
+    padding:20px 0;
+    position:relative;
+}
+
+.faq-item:last-child{
+    border-bottom:1px solid #E4E4E4;
+}
+
+.faq-item p{
+    font-size:16px;
+    color:#252B46;
+}
+
+.faq-item span{
+    position:absolute;
+    right:0;
+    top:18px;
+    font-size:24px;
+    color:#5267DF;
+    cursor:pointer;
+}
+
+.faq-item:hover p{
+    color:#FA5959;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.more-btn{
+    margin-top:50px;
+    padding: 8px 20px 8px 20px;
+}
+
+/* ------------ PAGE-7 ------------ */
+
+.page-7{
+
+    background:#5267DF;
+
+    padding:90px 0;
+
+}
+
+.joined{
+
+    color:white;
+
+    font-size:15px;
+
+    letter-spacing:4px;
+
+    margin-bottom:15px;
+
+}
+
+.heading-7{
+
+    color:white;
+
+    font-size:22px;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+    line-height:60px;
+
+}
+
+.page-7 input{
+
+    width:350px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:8px;
+
+    padding-left:18px;
+
+    font-size:15px;
+
+    margin-right:20px;
+
+    outline:none;
+
+}
+
+.contact-btn{
+
+    width:130px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#FA5959;
+
+    color:white;
+
+    font-size:15px;
+
+    cursor:pointer;
+
+}
+
+.contact-btn:hover{
+
+    background:white;
+
+    color:#010101;
+
+    border:2px solid #ffffff;
+
+    transition:.3s;
+
+}
+
+/* ------------ FOOTER ------------ */
+
+.footer{
+
+    background:#252B46;
+
+    padding:28px 100px;
+
+}
+
+.footer-logo{
+
+    float:left;
+
+}
+
+.footer-logo img{
+
+    width:150px;
+
+}
+
+.footer-links{
+
+    float:left;
+
+    margin-left:80px;
+
+    margin-top:8px;
+
+}
+
+.footer-links a{
+
+    text-decoration:none;
+
+    color:white;
+
+    margin-right:40px;
+
+    font-size:14px;
+
+}
+
+.footer-links a:hover{
+
+    color:#FA5959;
+
+}
+
+.footer-social{
+
+    float:right;
+
+    margin-top:5px;
+
+}
+
+.footer-social a{
+
+    color:white;
+
+    font-size:28px;
+
+    margin-left:25px;
+
+}
+
+.footer-social a:hover{
+
+    color:#FA5959;
+
 }
